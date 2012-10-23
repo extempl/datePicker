@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+<head>
+    <title>some</title>
+    <script type="text/javascript" src="jquery-1.7.1.js"></script>
+    <script type="text/javascript" src="datePicker.js"></script>
+    <script>
+        doNotInitDatePicker = false; //set to true if do not want t oinit datePicker on page load
+    </script>
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+        input {
+            width: 105px;
+            height: 18px;
+            border: 1px solid #999;
+            padding: 2px 5px;
+        }
+
+        .inputWrapper {
+            margin: 5px;
+            position: absolute;
+        }
+    </style>
+</head>
+<body>
+
+<div class="inputWrapper" style="left: 0; top: 0">
+    <input type="text" data-datepicker="true" />
+</div>
+<div class="inputWrapper" style="left: 0; bottom: 0">
+    <input type="text" data-datepicker="true" />
+</div>
+<div class="inputWrapper" style="right: 0; top: 0">
+    <input type="text" data-datepicker="true" />
+</div>
+<div class="inputWrapper" style="right: 0; bottom: 0">
+    <input type="text" data-datepicker="true" />
+</div>
+</body>
+</html>
